@@ -7,7 +7,7 @@ p{
 
 h4{
    font-size: 18px;
-
+    text-align: center;
 }
 #div1{
     display: flex;
@@ -21,12 +21,21 @@ img{
 .cat1 {
     height: 200px;
     width: 200px;
+     margin: 0 auto;
    }
 .cat2 {
     height: 200px;
     width: 200px;
+    margin: 0 auto;
    }
 .cat3 {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
+    margin: -10 auto;
    }
+#div2{
+    text-align: right;
+}
+#h4{
+    text-align: lefts;
+}
