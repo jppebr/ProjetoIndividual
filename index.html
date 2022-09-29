@@ -34,14 +34,26 @@
         <br><br><br><h4 class="h4" id="contato">Contato</h4>
 
         <div class="cat3"><img src="img/image.png" alt=""></div>
-        <div>
+        <div class="box">
            
             <form action="./exemplo.html" method="dialog">
-             <p>Coloque seu Nome</p>    <input type="name" name="Nome">
-             <p>Coloque seu email</p>    <input type="email" name="Nome">
+                <label>
+                    <span>Nome Completo</span>
+                     <input type="text" class="input_text" name="nome" id="name"/>
+        
+                </label>
+        
+                <label>
+                     <span>Email</span>
+                    <input type="text" class="input_text" name="email" id="email"/>
+                 </label>
+                
+                 <label>
+                     <span>Mensagem</span>
+                    <textarea class="message" name="feedback" id="feedback"></textarea>
+                    <input type="button" class="button" value="Enviar" />
+                </label>
             </form>
-            <p>Entaremos em contato</p>
-
         </div>
 
 

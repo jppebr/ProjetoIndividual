@@ -31,11 +31,34 @@ img{
 .cat3 {
     height: 100px;
     width: 100px;
-    margin: -10 auto;
+    margin: 10px auto;
    }
 #div2{
     text-align: right;
 }
 #h4{
-    text-align: lefts;
+    display: flex;
+    justify-content: left;
 }
+ div.box{
+        margin:10px auto;
+        width:500px;
+        position:relative;
+        top:50px;
+        
+    }
+    div.box label {
+        width:100%;
+        display: block;
+        padding:10px 0 10px 0;
+    }
+    div.box label span {
+        display: block;
+        color:#000000;
+        font-size:12px;
+        float:left;
+        width:100px;
+        text-align:right;
+        padding:5px 20px 0 0;
+    }
+    
